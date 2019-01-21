@@ -3,7 +3,6 @@ import ast
 import pymongo
 from geojson import Point, Feature, dump, FeatureCollection
 
-# myclient = pymongo.MongoClient("mongodb://cv:cv_b00gingrip@ds147033.mlab.com:47033/cristian")
 myclient = pymongo.MongoClient("mongodb://<user>:<password>@ds152000.mlab.com:52000/<client>")
 mydb = myclient["<client>"]
 mycol = mydb["<database>"]

@@ -3,10 +3,9 @@ import ast
 import pymongo
 from geojson import Polygon, Feature, dump
 
-# myclient = pymongo.MongoClient("mongodb://cv:cv_b00gingrip@ds147033.mlab.com:47033/cristian")
-myclient = pymongo.MongoClient("mongodb://denelius:mlab_b00gingrip@ds151008.mlab.com:51008/node_build")
-mydb = myclient["node_build"]
-mycol = mydb["crud_demo"]
+myclient = pymongo.MongoClient("mongodb://<user>:<password>@ds152000.mlab.com:52000/<client>")
+mydb = myclient["<client>"]
+mycol = mydb["<database>"]
 
 polyjson = ""
 with open('polydemo.csv', 'r') as f:
