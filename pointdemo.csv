@@ -1,0 +1,5 @@
+point_id,direction,status,coords
+pid_1,unidirectional,good,"(-73.96943,40.78519)"
+pid_2,bidirectional,good,"(-73.96415,40.79229)"
+pid_3,bidirectional,bad,"(-73.97162,40.78205)"
+pid_4,bidirectional,bad,"(-73.9788,40.77247)"
